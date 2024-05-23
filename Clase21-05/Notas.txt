@@ -1,0 +1,23 @@
+TESTING:
+-test unitario -> lo hace el programador en cada funcion/modulo
+-TDD test-driven development
+-Pruebas de integracion -> cuando se hace una llamada a otro modulo o a otro sistema
+-pruebas de interfaz
+-Pruebas del sistema -> prueba como una unidad toda la aplicacion
+-Pruebas de humo -> prueba las funcionalidades basicas de la aplicacion
+-Pruebas de saneamiento -> probar cada version
+-De aceptacion -> Realizadas por los usuarios finales
+
+pruebas manuales y automaticas
+-Selenium IDE -> especial para pruebas web
+
+Testing unitario:
+-JEST -> creada por facebook para testear javascript
+- npm i jest -dev--save
+- npm i supertest -dev--save
+- Babel JS -> compilador necesario para jest
+- En package.json reemplazo en "test" : "jest"
+- seguimos las instrucciones en la web de babel js
+- npm install @babel/preset-env --save-dev
+- Buscar en Google Asserts jest
+ npm i supertest
